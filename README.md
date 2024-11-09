@@ -25,30 +25,30 @@ Welcome to the **Stock Insight** project, where you can gain valuable insights i
 
 To get started, clone this repository to your local machine:
 
-git clone https://github.com/sumeetpatil01/StockInsight---Emphasizes-gaining-insights-into-stock-trends.git
+git clone https://github.com/sumeetpatil01/StockInsight---Emphasizes-gaining-insights-into-stock-trends.git                                                                                              
 pip install -r requirements.txt
-🏃‍♂️ Running the App
-To run the app, simply use the following command in the terminal:
+## 🏃‍♂️ Running the App 
+To run the app, simply use the following command in the terminal:                                                                                                 
 streamlit run app.py
-🎯 Objectives
+## 🎯 Objectives
 Enable users to fetch and analyze stock trends from Yahoo Finance.
 Provide visualization of key technical indicators like SMA, EMA, Bollinger Bands, and RSI.
 Help users understand stock behavior and make informed investment decisions.
-📚 How It Works
+## 📚 How It Works
 Fetching Data: The app uses the yfinance library to fetch historical stock data.
 Calculating Indicators: The app calculates SMA, EMA, Bollinger Bands, and RSI using standard financial formulas.
 Visualizing Trends: The data and indicators are plotted using matplotlib for easy visualization.
 User Interaction: Users can input a stock ticker and choose the date range for fetching the data.
-📝 Requirements
+## 📝 Requirements
 Ensure you have the following dependencies installed:
 pip install streamlit yfinance pandas numpy matplotlib scikit-learn
-💡 Example Usage
+## 💡 Example Usage
 After running the app, you can enter any valid stock ticker, such as:
 
-Apple: AAPL
-Google: GOOG
-Amazon: AMZN
+Apple: AAPL                                                                                                                                         
+Google: GOOG                                                                                                                                                                  
+Amazon: AMZN                                                                                                                                         
 Select the stock symbol and the time period for analysis, and the app will display the stock trends and technical indicators like SMA, Bollinger Bands, and RSI to help you analyze the market.
-✨ Contributing
-Feel free to open an issue or submit a pull request if you'd like to contribute to this project. Any suggestions, bug reports, or enhancements are welcome!
+✨ Contributing                                                                                                                                          
+Feel free to open an issue or submit a pull request if you'd like to contribute to this project. Any suggestions, bug reports, or enhancements are welcome!                                                      
 Happy investing! 📊🚀
